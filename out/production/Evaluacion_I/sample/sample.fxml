@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="49.0" layoutY="27.0" text="Pescado">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="78.0" text="Tipo de pez">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="combopez" layoutX="14.0" layoutY="104.0" onMouseClicked="#agregar" prefHeight="25.0" prefWidth="190.0" />
+      <Label layoutX="233.0" layoutY="78.0" text="Por nacimiento">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tpornacimiento" alignment="CENTER" layoutX="221.0" layoutY="104.0" />
+      <Button layoutX="385.0" layoutY="104.0" mnemonicParsing="false" onAction="#insertar" text="Insertar" />
+      <Button layoutX="79.0" layoutY="145.0" mnemonicParsing="false" onAction="#procesar" prefHeight="25.0" prefWidth="308.0" text="Procesar" />
+      <ListView fx:id="listapeces" layoutX="15.0" layoutY="180.0" prefHeight="300.0" prefWidth="470.0" />
+   </children>
+</AnchorPane>

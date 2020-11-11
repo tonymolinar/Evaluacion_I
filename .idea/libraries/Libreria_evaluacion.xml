@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Libreria_evaluacion">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libreria_evaluacion.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
